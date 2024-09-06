@@ -1,0 +1,37 @@
+{
+  "name": "communitybackend",
+  "version": "1.0.0",
+  "description": "connect with DB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "mongoose": "^8.6.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/node": "^22.5.1",
+    "eslint": "^9.9.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.3.0"
+  }
+}
